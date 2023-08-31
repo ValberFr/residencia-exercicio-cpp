@@ -12,6 +12,7 @@ int main(void) {
     cout << "Menor float:" << numeric_limits<float>::min() << endl;
     cout << "Maior float:" << numeric_limits<float>::max() << endl;
     cout << "Pi:" << setprecision(20) << pif << endl;
+    cout << "Pi:" << M_PI << endl;
 
     return 0;
 }
